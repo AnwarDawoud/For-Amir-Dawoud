@@ -1,0 +1,51 @@
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.gallery-item {
+    flex: 0 0 calc(25% - 20px);
+    margin: 10px;
+}
+
+.frame {
+    position: relative;
+}
+
+.frame img {
+    width: 333px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.caption {
+    position: relative;
+    bottom: 0px;
+    left: 15px;
+    width: 333px;
+    padding: 0px;
+    background-color: #011f3d;
+    color: #ffffcc;
+    border-radius: 15px;
+}
+
+.caption h3,
+.caption p {
+    margin: 15px;
+    padding: 0;
+}
+
+.caption h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px;
+    padding: 15px;
+}
+
+.caption p {
+    font-size: 14px;
+    margin: 15px;
+    padding: 15px;
+}

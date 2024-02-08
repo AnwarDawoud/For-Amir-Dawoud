@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    padding: 0px;
+    bottom: 5px;
+    left: 10px;
+    width: 100%;
+    margin: 0%;
+    min-height: 100vh;
+}
+
+.logo {
+    position: relative;
+    bottom: 25px;
+    left: 20px;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: #011f3d;
+    padding: 0em;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+header div {
+    color: #ffffcc;
+    font-size: x-large;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-shadow: -3px 5px 3px rgb(255 247 8 / 42%);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 20px;
+    text-align: right;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: #ffffcc;
+    text-decoration: none;
+    padding-bottom: 2px;
+    padding-right: 10px;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #ffffcc;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* hero image */
+.hero-outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 0px;
+    margin-left: 0px;
+}
+
+.director-message {
+    text-align: left;
+    padding: 45px;
+    background-color: #f5f5f5;
+}
+
+.our-services {
+    text-align: left;
+    padding: 45px;
+    background-color: #f5f5f5;
+}
+
+.about-us {
+    text-align: left;
+    padding: 45px;
+    background-color: #f5f5f5;
+}
+
+.our-project {
+    text-align: left;
+    padding: 45px;
+    background-color: #f5f5f5;
+}
+
+/* footer all pages styling */
+footer {
+    background-color: #011f3d;
+    color: rgb(252, 248, 248);
+    padding: 0px;
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
+
+footer p,
+h4 {
+    color: #ffffcc;
+    text-decoration: none;
+    height: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+
+/* Sign up page styling */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.form {
+    color: #3a3a3a;
+    padding: 30px;
+    background-color: #f5f5f5;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form h3 {
+    margin: 10px 0 5px 0;
+}
+
+.text-input {
+    margin: 10px 8% 20px 2%;
+    background: transparent;
+    height: 25px;
+    width: 90%;
+    border: 2px solid #011f3d;
+    border-radius: 4px;
+}
+
+#message {
+    margin: 10px 0 20px 0;
+    width: 100%;
+    border: 2px solid hsl(253, 100%, 12%);
+    border-radius: 4px;
+}
+
+#message-box-label {
+    font-size: 20px;
+}
+
+.form-submit-button {
+    background: #011f3d;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.form-submit-button:hover {
+    background: white;
+    border: 2px solid #011f3d;
+    color: #011f3d;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+/** social media icons**/
+.social-networks {
+    display: flex;
+    justify-content: center;
+}
+
+.social-networks li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 2px;
+}
+
+.social-networks a {
+    margin-right: 2px;
+    /* Adjust spacing between icons as needed */
+}
+
+.fa {
+    padding: 10px;
+    font-size: larger;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #cb4141;
+    color: white;
+}
+
+/* Extra large screens, TV */
+
+@media (min-width: 1301px) {
+    .logo {
+        position: relative;
+        bottom: 25px;
+        left: 20px;
+        width: 150px;
+        height: auto;
+    }
+
+}
+
+/*  Desktops, large screens */
+
+@media (min-width: 992px) and (max-width: 1300px) {
+    .nav {
+        padding: 10px;
+    }
+
+    .logo {
+        position: relative;
+        bottom: 25px;
+        left: 20px;
+        width: 125px;
+        height: auto;
+    }
+}
+
+/* iPads, Tablets */
+
+@media (min-width: 481px) and (max-width: 991px) {
+    .nav {
+        padding: 10px;
+    }
+
+    .logo {
+        position: relative;
+        bottom: 25px;
+        left: 20px;
+        width: 100px;
+        height: auto;
+    }
+}
+
+/*  Mobile devices. */
+
+@media (max-width: 480px) {
+    .nav {
+        padding: 10px;
+    }
+
+    .logo {
+        position: relative;
+        bottom: 25px;
+        left: 20px;
+        width: 75px;
+        height: auto;
+    }
+
+}
